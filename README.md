@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+My personal website via [Next.js](https://nextjs-blog-chi-six-36.vercel.app/).
