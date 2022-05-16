@@ -12,12 +12,23 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Ahmed Soliman's Profile!]</p>
+
+      <h1 align="center">Hi I'm Ahmed Soliman 👋</h1>
+        <p align="center">
+            <a href="https://twitter.com/ahmeds_link"><img src="https://img.shields.io/badge/twitter-%231FA1F1?style=flat&logo=twitter&logoColor=white"/></a>
+            <a href="https://www.linkedin.com/in/ahmedsliman/"><img src="https://img.shields.io/badge/linkedin-%230177B5?style=flat&logo=linkedin&logoColor=white"/></a>
+          </p>
+
+          <img src="https://raw.githubusercontent.com/mohamedabusrea/mohamedabusrea/master/profile-img.png" align="right" width="25%"/>
+
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://github.com/ahmedsliman/nextjs-starter">My Next.js Starter</a>.)
+        I'm a software developer who is passionate about creating technology to elevate people. Some technologies I enjoy working with include PHP, MYSQL and JavasSript.
         </p>
+
+        <h4>- 🔭 I'm a software developer in Belin, Germany</h4>
+        <h4>- 💬 Ask me about **PHP and Backend**</h4>
       </section>
+
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
