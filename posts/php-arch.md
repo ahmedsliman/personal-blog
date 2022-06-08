@@ -5,17 +5,8 @@ date: '2022-03-15'
 
 ![The Clean Architecture In PHP Book Cover](https://res.cloudinary.com/practicaldev/image/fetch/s--fibUM2Lu--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qi6m0hlfm0kqb0lfj84h.png)
 
-الكتاب ده ممتاز في شرح و تطبيق مباديء الـ SOLID و بعض الـ Design Patterns المهمة بس بتون و أمثلة PHP
-
-الكتاب مختصر جداً و دي ميزة طبعاً للي مش بيحب يقرأ كتب طويلة أو اللي عايز ياخد فكرة بس ممكن حد يشوفه عيب لإنه فيه حاجات مختصر فيها جداً بشكل بيخليها مش واضحة كفاية
-
-طبعاً ممكن الإستعانة طبعاً بمصادر تانية أثناء القراءة articles or videos
-
-كمان فيه ميزة إنه مطبق ده في small project في النص التاني من الكتاب بيوضح فيها إزاي بيـ transfer البروجكت من فريمورك للتانية
-
-هوا بينقل من Zend to Laravel طبعاً قبل م Zend project to moved into Laminas علشان كدا الحته دي في الكتاب محتاجه تحديث
-
-معلش أول مرة أكتب review ف ممكن ميكونش أحسن حاجه
-
-It was a good journey for me by the way
-
+- This book is amazing in explaining and applying SOLID principles and many common design patterns.
+- The main benifit of the book is it give a quick theoritical introduction then start applying in a really advanced way the clean (onion) architecture.
+- Some parts was very brief, So I got help from other resources.
+- Other benifit of the book is applying the principles in a small project that getting bigger throughout the book, and it also apply how to trabsfer the project from a framework to another to expose the concepts of decoupling. So, you will find it go from Zend, Laravel to Symfony.
+- It's a short review as it's more like my impression for a good journey :)
