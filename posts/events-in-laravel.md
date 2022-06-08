@@ -30,19 +30,19 @@ Simply put, events are actions that occur within an application. Coming from the
 
 ### Defining Our Events
 
-```php artisan make:event UserRegistered```
+        php artisan make:event UserRegistered
 
 Event has been created successfully
 
-```php artisan make:listener SendWelcomeMail --event=UserRegistered```
+         artisan make:listener SendWelcomeMail --event=UserRegistered
 
 Listener has been created successfully
 
-```php artisan make:listener SignupForWeeklyNewsletter --event=UserRegistered```
+         artisan make:listener SignupForWeeklyNewsletter --event=UserRegistered
 
 Listener has been created successfully
 
-```php artisan make:listener SendSMS --event=UserRegistered```
+         artisan make:listener SendSMS --event=UserRegistered
 
 Listener has been created successfully
 
@@ -50,7 +50,7 @@ Listener has been created successfully
 
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/0svwe6ivibsptoew00nw.png)
 
-```php artisan event:generate```
+         artisan event:generate
 
 Events and Listeners generated successfully
 

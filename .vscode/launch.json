@@ -1,18 +1,27 @@
 {
-    "configurations": [
+    "version": "0.2.0",
+    "configurations": [{
+            "name": "Next.js: debug server-side",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "npm run dev"
+        },
         {
-            "type": "aws-sam",
-            "request": "direct-invoke",
-            "name": "nextjs-blog:posts/[id].getStaticProps (nodejs14.x)",
-            "invokeTarget": {
-                "target": "code",
-                "projectRoot": "${workspaceFolder}/",
-                "lambdaHandler": "posts/[id].getStaticProps"
-            },
-            "lambda": {
-                "runtime": "nodejs14.x",
-                "payload": {},
-                "environmentVariables": {}
+            "name": "Next.js: debug client-side",
+            "type": "pwa-chrome",
+            "request": "launch",
+            "url": "http://localhost:3000"
+        },
+        {
+            "name": "Next.js: debug full stack",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "npm run dev",
+            "console": "integratedTerminal",
+            "serverReadyAction": {
+                "pattern": "started server on .+, url: (https?://.+)",
+                "uriFormat": "%s",
+                "action": "debugWithChrome"
             }
         }
     ]
