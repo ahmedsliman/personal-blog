@@ -13,7 +13,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
 
-      <h1 align="center">Hi I'm Ahmed Soliman 👋</h1>
+      <h1 align="center">Hi I'm Ahmed Soliman :) 👋</h1>
         <p align="center">
             <a href="https://twitter.com/ahmeds_link">
               <img src="https://img.shields.io/badge/twitter-%231FA1F1?style=flat&logo=twitter&logoColor=white"/>
